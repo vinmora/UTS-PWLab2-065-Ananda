@@ -1,0 +1,32 @@
+#navbarAtas{
+  background-color: rgb(13, 77, 21);
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  color: white;
+  background-color: rgb(10, 128, 26);
+}
+section,
+footer {
+  padding-top: 6rem;
+}
+body {
+  min-height: auto;
+}
+#projects {
+  color: white;
+  background-color: rgb(10, 128, 26);
+}
+.gallery-img {
+  width: 100%;
+}
+#gallery .row > * {
+  padding: 0;
+}
+
+#footer{
+  background-color: rgb(13, 77, 21);
+  width: auto;
+  height: fit-content;
+}

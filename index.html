@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio | Ananda Kelvin</title>
+    <br>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar shadow-sm navbar-expand-lg fixed-top navbar-dark" id="navbarAtas">
+        <div class="container-fluid" >
+            <a class="navbar-brand">
+                <img src="./img/USU.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                Universitas Sumatera Utara
+              </a>          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- Jumbotron -->
+    <section id="home" class="jumbotron text-center">
+        <img src="./img/profilpic.jpg" id="profileImg" class="rounded rounded-circle img-thumbnail" width="170">
+        <h1 class="display-4"></h1>
+        <p class="lead">Mahasiswa | Ilmu Komputer</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffff" fill-opacity="1"
+          d="M0,128L48,149.3C96,171,192,213,288,234.7C384,256,480,256,576,250.7C672,245,768,235,864,197.3C960,160,1056,96,1152,101.3C1248,107,1344,181,1392,218.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">  
+            </path>
+        </svg>
+    </section>
+    <!-- end Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center fs-5">
+                <div class="col-md-4 mb-4" data-aos="fade-right" data-aos-duration="1000">Hai! Saya seorang mahasiswa ilmu komputer di Universitas Sumatera Utara yang selalu antusias dalam mengeksplorasi dunia coding dan teknologi.</div>
+                <div class="col-md-4 mb-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    Dengan semangat belajar yang tinggi, saya mencoba menggabungkan pengetahuan teoritis dengan keterampilan praktis. Di luar akademis, saya juga suka berkolaborasi dalam proyek-proyek kreatif dan selalu siap untuk tantangan baru dalam dunia teknologi!</div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0a801a" fill-opacity="1"
+             d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- end About -->
+
+    <!-- Project -->
+    <section id="projects">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col">
+                    <h2>My Projects</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <div class="card text-dark" data-aos="flip-left" data-aos-duration="500">
+                        <img src="./img/openGL.png" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">OpenGL: Landscape Project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card text-dark" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+                        <img src="./img/sirkuit pompa.png" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Proteus: Automatic Water Pump Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card text-dark" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
+                        <img src="./img/TicTacToe.png" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">HTML-JS: TicTacToe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card text-dark" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+                        <img src="./img/VinsComp.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">VinsComp: Small Business Project</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,128L60,160C120,192,240,256,360,250.7C480,245,600,171,720,154.7C840,139,960,181,1080,192C1200,203,1320,181,1380,170.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+            </path>
+        </svg> 
+    </section>
+    <!-- End Project -->
+
+    <!-- Galery -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col">
+                    <h2>Gallery</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/1.jpg" alt="" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/2.jpg" alt="" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/3.jpg" alt="" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/4.jpg" alt="" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/5.jpg" alt="" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/6.jpg" alt="" class="img-fluid gallery-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Galery -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-dark">Hubungi</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0a801a" fill-opacity="1"
+                d="M0,160L60,176C120,192,240,224,360,218.7C480,213,600,171,720,165.3C840,160,960,192,1080,208C1200,224,1320,224,1380,224L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- end Contact -->
+
+
+    <!-- Footer -->
+    <footer class="pb-3 text-center" id="footer">
+        <p class="fw-bold">
+            Created by <a href="https://www.instagram.com/anandakelvin06" class="text-decoration-none">Ananda Kelvin <i class="bi bi-instagram"></i></a>
+        </p>
+    </footer>
+    <!-- end Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+
+    <script>
+        // Registrasi Plugin
+        gsap.registerPlugin(TextPlugin);
+        // animasikan mulai dari posisi awalnya durasi 1 detik posisi - 100 dan opacity 0
+        // gsap.from('#profileImg', { duration: 1, rotateY: 360, opacity: 0 });
+        gsap.to('.display-4', { duration: 2, delay: 2.5, text: 'Ananda Kelvin Situmorang' })
+        gsap.from('.lead', { duration: 1.5, delay: 3.5, y: -20, opacity: 0 })
+        gsap.from('.navbar', { duration: 2, y: '-100%', opacity: 0, ease: 'bounce' });
+        // gsap.from('.display-4', { duration: 1, x: '-50', opacity: 0, delay: 1.25, ease: 'back' })
+    </script>
+    <script>
+        const galleryImg = document.querySelectorAll('.gallery-img');
+        galleryImg.forEach((img, index) => {
+            img.dataset.aos = 'fade-down';
+            img.dataset.aosDelay = index * 100;
+            img.dataset.aosDuration = 1000;
+        });
+        AOS.init({
+            once: true
+        });
+    </script>
+    <!-- custom js -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
